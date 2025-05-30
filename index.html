@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=340, initial-scale=1.0" />
+    <br />
+    <title>Daily Dash-Todo WebApp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <!-- Example input area for your index.html -->
+    <div class="input-row">
+      <div class="input-group">
+        <label for="todo-input" class="input-label">Task</label>
+        <input type="text" id="todo-input" placeholder="Add a new task..." />
+      </div>
+      <div class="input-group">
+        <label for="target-time-input" class="input-label">Target Time</label>
+        <input type="time" id="target-time-input" />
+      </div>
+      <div class="input-group">
+        <label for="recurring-input" class="input-label">Recurring</label>
+        <select id="recurring-input">
+          <option value="">No Repeat</option>
+          <option value="daily">Daily</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+        </select>
+      </div>
+      <div class="input-group input-actions">
+        <button id="voice-btn" title="Add task by voice">🎤</button>
+        <button id="add-task-btn">Add</button>
+      </div>
+    </div>
+
+    <!-- Task grid container -->
+    <div id="todo-grid"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
