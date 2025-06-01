@@ -55,10 +55,9 @@ A modern, responsive, and feature-rich Todo List web application to help you org
 - Voice input and notifications work best in Chrome.
 - Other browsers may have limited support for these features.
 
-## License
+## Screenshots
+![Screenshot 2025-05-30 205710](https://github.com/user-attachments/assets/2f50c86b-e722-49aa-ab68-4bac631f972d)
 
-MIT License
 
----
 
 Made with 💜 for productivity!
